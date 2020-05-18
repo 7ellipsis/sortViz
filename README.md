@@ -10,4 +10,5 @@ Animations go haywire after a reset. Not merge sort though.
 Refresh instead of reset solves this.
 
 ## Demo
+https://qgnirabng.github.stackblitz.io/
 https://stackblitz.com/github/7ellipsis/sortViz
