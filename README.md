@@ -7,6 +7,7 @@ The project can be tweaked by changing the animation speed and the nuber of elee
 
 ## Known bugs
 Animations go haywire after a reset. Not merge sort though.
+Refresh instead of reset solves this.
 
 ## Demo
 https://stackblitz.com/github/7ellipsis/sortViz
