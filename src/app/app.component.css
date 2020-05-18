@@ -1,0 +1,128 @@
+.items
+{
+    display: inline-block;
+    margin: 0 1px;
+    background-color: purple;
+    width:2px;
+    border-radius: 2px;
+}
+button
+{
+    font-size: small;
+    background-color:darksalmon ;
+    border-color: darksalmon;
+    }
+#container
+{
+
+    margin-top: 20vh;
+    position: absolute;
+    left: 45px;
+    overflow: hidden;
+}
+li{
+    padding: 2px;
+}
+.slidecontainer {
+    margin-top: 5px;
+    width: 100%; 
+  }
+  
+  .slider {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 100%;
+    height: 5px; 
+    background: #d3d3d3; 
+    outline: none; 
+    opacity: 0.7;
+    -webkit-transition: .1s; 
+    transition: opacity .1s;
+    border-radius: 101px;
+  }
+  .slider {
+    background: linear-gradient(88deg, #5600ce, #0e69c3, #f35e5e, #fb8bf2, #1e0cb0, #ff0000, #10bdb7, #e62983, #302ccc, #ee9c29);
+    background-size: 2000% 2000%;
+
+    -webkit-animation: AnimationName 2s ease infinite;
+    -moz-animation: AnimationName 2s ease infinite;
+    animation: AnimationName 2s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 45%}
+    50%{background-position:100% 56%}
+    100%{background-position:0% 45%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 45%}
+    50%{background-position:100% 56%}
+    100%{background-position:0% 45%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 45%}
+    50%{background-position:100% 56%}
+    100%{background-position:0% 45%}
+}
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px; 
+    height: 15px; 
+    background: #4CAF50; 
+    cursor: pointer; 
+    border-radius: 50px;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    background: linear-gradient(50deg, #0e69c3, #f35e5e, #e62983, #302ccc);
+    background-size: 80% 80%;
+
+    -webkit-animation: AnimationName 4s ease infinite;
+    -moz-animation: AnimationName 4s ease infinite;
+    animation: AnimationName 4s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 58%}
+    50%{background-position:100% 43%}
+    100%{background-position:0% 58%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 58%}
+    50%{background-position:100% 43%}
+    100%{background-position:0% 58%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 58%}
+    50%{background-position:100% 43%}
+    100%{background-position:0% 58%}
+}
+ .speed
+ {
+     color:white;
+     }
+     #speed
+     {
+        font-size: small;
+        background-color:darksalmon ;
+        border-color: darksalmon;
+     }
+hr{
+    visibility: hidden;
+    padding-top:0px ;
+    height: 2px;
+    margin-top: 0px; 
+        background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+        background-size: 900% 900%;
+        animation: rainbow 7s ease infinite;
+}
+@keyframes rainbow { 
+    0% { background-position: 0% 100%; }
+    50% { background-position: 100% 200%; }
+    100% {background-position: 0% 100%; }
+  }
